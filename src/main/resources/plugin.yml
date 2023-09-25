@@ -1,0 +1,12 @@
+name: 'DittoFactory'
+version: '${version}'
+main: dittonut.ditto_factory.DittoFactory
+api-version: '1.19'
+load: STARTUP
+depend: [ProtocolLib]
+author: DittoNut
+commands:
+  df:
+    aliases: [dittofactory, factory, fac]
+    description: "DittoNut's Factory Plugin main command!"
+    usage: "/df <getItem> <itemName>\n/df <list>"
