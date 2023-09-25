@@ -24,6 +24,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class DittoFactory extends JavaPlugin implements Listener {
 
     private ProtocolManager protocolManager;
+    // dddd
 
     @Override
     public void onEnable() {
